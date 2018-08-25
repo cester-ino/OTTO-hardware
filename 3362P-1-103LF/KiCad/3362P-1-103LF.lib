@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 3362P-1-103LF
+#/166512/56530/2.30/3/4/Resistor
+DEF 3362P-1-103LF R 0 30 Y Y 1 F N
+F0 "R" 950 300 50 H V L CNN
+F1 "3362P-1-103LF" 950 200 50 H V L CNN
+F2 "3362P_1" 950 100 50 H I L CNN
+F3 "http://www.bourns.com/docs/Product-Datasheets/3362.pdf" 950 0 50 H I L CNN
+F4 "3362P top adj cermet trimmer 10K 6mm Bourns 3362P Series Through Hole Cermet Trimmer Resistor with Pin Terminations, 10k 10% 0.5W 100ppm/C Top Adjust" 950 -100 50 H I L CNN "Description"
+F5 "" 950 -200 50 H I L CNN "Height"
+F6 "Bourns" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "3362P-1-103LF" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1673253" 950 -500 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/1673253" 950 -600 50 H I L CNN "RS Price/Stock"
+F10 "70153603" 950 -700 50 H I L CNN "Allied_Number"
+F11 "https://www.alliedelec.com/bourns-3362p-1-103lf/70153603/" 950 -800 50 H I L CNN "Allied Price/Stock"
+F12 "3362P-1-103LF" 950 -900 50 H I L CNN "Arrow Part Number"
+F13 "https://www.arrow.com/en/products/3362p-1-103lf/bourns" 950 -1000 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CCW 1 0 0 200 R 50 50 0 0 B
+X WIPER 2 0 -100 200 R 50 50 0 0 B
+X CW 3 1100 0 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 3362P-1-103LF
+D 3362P top adj cermet trimmer 10K 6mm Bourns 3362P Series Through Hole Cermet Trimmer Resistor with Pin Terminations, 10k 10% 0.5W 100ppm/C Top Adjust
+K
+F http://www.bourns.com/docs/Product-Datasheets/3362.pdf
+$ENDCMP
+#
+#End Doc Library
