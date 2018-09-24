@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name TPS61090)(type Legacy)(uri D:/Documents/GitHub/OTTO-project/OTTO-project/OTTO-powernew/Lib/TPS61090.lib)(options "")(descr ""))
+  (lib (name xc6210-3v3-reg)(type Legacy)(uri D:/Documents/GitHub/OTTO-project/OTTO-project/OTTO-powernew/Lib/xc6210-3v3-reg.lib)(options "")(descr ""))
+  (lib (name mcp112)(type Legacy)(uri D:/Documents/GitHub/OTTO-project/OTTO-project/OTTO-powernew/Lib/mcp112.lib)(options "")(descr ""))
+)

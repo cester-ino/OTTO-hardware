@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name STM32F103CBT6)(type Legacy)(uri D:/Documents/GitHub/OTTO-project/OTTO-project/OTTO-main/Libs/STM32F103CBT6/STM32F103CBT6.lib)(options "")(descr ""))
+)
