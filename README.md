@@ -1,6 +1,8 @@
-## OTTO-hardware
+## OTTO-project
 Hardware prototype for the [OTTO Synthesizer by Topisani](https://github.com/topisani/OTTO "OTTO Synthesizer by Topisani")
 
+![prototype rendering](https://raw.githubusercontent.com/cester-ino/OTTO-hardware/dev/img/alu.png)
+*10x10 silicone buttons with led backlight*
 
 Main features
 ####Mainboard
@@ -34,6 +36,6 @@ Main features
 
 those specs refer to the tactile buttons version, but a led backlight button version is in the works too.
 
-![prototype rendering](https://raw.githubusercontent.com/cester-ino/OTTO-hardware/master/images/OTTOtac0_1.png)
+![prototype rendering](https://raw.githubusercontent.com/cester-ino/OTTO-hardware/dev/img/OTTOtac0_1.png)
 *one of the first design iteration*
 
