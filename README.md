@@ -36,6 +36,6 @@ Main features
 
 those specs refer to the tactile buttons version, but a led backlight button version is in the works too.
 
-![prototype rendering](https://raw.githubusercontent.com/cester-ino/OTTO-hardware/dev/img/OTTOtac0_1.png)
+![prototype rendering](https://raw.githubusercontent.com/cester-ino/OTTO-hardware/dev/img/OTTOtac.png)
 *one of the first design iteration*
 
