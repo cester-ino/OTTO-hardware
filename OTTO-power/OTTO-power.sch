@@ -1087,7 +1087,7 @@ CHG_OUT
 Text GLabel 3150 6050 2    50   Input ~ 0
 DOK_OUT
 Text GLabel 9800 5000 2    50   Input ~ 0
-BATT+
+SYS
 Wire Wire Line
 	9650 5000 9800 5000
 Text GLabel 3150 6450 2    55   Input ~ 0
@@ -1298,7 +1298,7 @@ $EndComp
 Wire Wire Line
 	9200 1950 9200 2050
 Text GLabel 7950 850  1    50   Input ~ 0
-BATT+
+SYS
 Wire Wire Line
 	7950 850  7950 950 
 Connection ~ 7950 1650
