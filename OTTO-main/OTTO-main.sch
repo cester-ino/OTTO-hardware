@@ -886,64 +886,64 @@ KEYBOARD
 Wire Notes Line width 12 style dash_dot rgb(194, 0, 0)
 	15700 10500 17400 10500
 Wire Wire Line
+	16550 9350 16200 9350
+Text GLabel 16200 9350 0    50   Input ~ 0
+ROW4
+Wire Wire Line
+	16550 9450 16200 9450
+Text GLabel 16200 9450 0    50   Input ~ 0
+ROW5
+Wire Wire Line
 	16550 7950 16200 7950
 Text GLabel 16200 7950 0    50   Input ~ 0
-ROW4
+COL1
 Wire Wire Line
 	16550 8050 16200 8050
 Text GLabel 16200 8050 0    50   Input ~ 0
-ROW5
+COL2
 Wire Wire Line
 	16550 8150 16200 8150
 Text GLabel 16200 8150 0    50   Input ~ 0
-COL1
+COL3
 Wire Wire Line
 	16550 8250 16200 8250
 Text GLabel 16200 8250 0    50   Input ~ 0
-COL2
+COL4
 Wire Wire Line
 	16550 8350 16200 8350
 Text GLabel 16200 8350 0    50   Input ~ 0
-COL3
+COL5
 Wire Wire Line
 	16550 8450 16200 8450
 Text GLabel 16200 8450 0    50   Input ~ 0
-COL4
+COL6
 Wire Wire Line
 	16550 8550 16200 8550
 Text GLabel 16200 8550 0    50   Input ~ 0
-COL5
+COL7
 Wire Wire Line
 	16550 8650 16200 8650
 Text GLabel 16200 8650 0    50   Input ~ 0
-COL6
+COL8
 Wire Wire Line
 	16550 8750 16200 8750
 Text GLabel 16200 8750 0    50   Input ~ 0
-COL7
+COL9
 Wire Wire Line
 	16550 8850 16200 8850
 Text GLabel 16200 8850 0    50   Input ~ 0
-COL8
+COL10
 Wire Wire Line
 	16550 8950 16200 8950
 Text GLabel 16200 8950 0    50   Input ~ 0
-COL9
+COL11
 Wire Wire Line
 	16550 9050 16200 9050
 Text GLabel 16200 9050 0    50   Input ~ 0
-COL10
+COL12
 Wire Wire Line
 	16550 9150 16200 9150
 Text GLabel 16200 9150 0    50   Input ~ 0
-COL11
-Wire Wire Line
-	16550 9250 16200 9250
-Text GLabel 16200 9250 0    50   Input ~ 0
-COL12
-Wire Wire Line
-	16550 9350 16200 9350
-Text GLabel 16200 9350 0    50   Input ~ 0
 COL13
 Wire Wire Line
 	16550 10150 16200 10150
@@ -993,17 +993,6 @@ Wire Wire Line
 Connection ~ 16250 6100
 Wire Wire Line
 	16250 6100 16550 6100
-$Comp
-L MCU_ST_STM32F1:STM32F103RETx U1
-U 1 1 5BB77EF9
-P 2150 3450
-F 0 "U1" H 2150 3400 50  0000 C CNN
-F 1 "STM32F103RETx" H 2150 3550 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 1550 1750 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf" H 2150 3450 50  0001 C CNN
-	1    2150 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2250 1550 2350 1550
 Wire Wire Line
@@ -1059,84 +1048,84 @@ F0 "buttons" 50
 F1 "buttons.sch" 50
 $EndSheet
 Wire Wire Line
-	16550 9450 16200 9450
-Text GLabel 16200 9450 0    50   Input ~ 0
+	16550 9250 16200 9250
+Text GLabel 16200 9250 0    50   Input ~ 0
 COL14
 Wire Wire Line
-	2850 2350 3350 2350
-Text GLabel 3350 2350 2    50   Input ~ 0
+	2850 4450 3350 4450
+Text GLabel 3350 4450 2    50   Input ~ 0
 COL10
 Wire Wire Line
-	2850 2450 3350 2450
-Text GLabel 3350 2450 2    50   Input ~ 0
+	1450 4850 950  4850
+Text GLabel 950  4850 0    50   Input ~ 0
 COL11
 Wire Wire Line
-	2850 2550 3350 2550
-Text GLabel 3350 2550 2    50   Input ~ 0
+	1450 4950 950  4950
+Text GLabel 950  4950 0    50   Input ~ 0
 COL12
 Wire Wire Line
-	1450 3950 950  3950
-Text GLabel 950  3950 0    50   Input ~ 0
+	1450 5050 950  5050
+Text GLabel 950  5050 0    50   Input ~ 0
 COL13
-Wire Wire Line
-	1450 4050 950  4050
-Text GLabel 950  4050 0    50   Input ~ 0
-COL14
-Text GLabel 3350 3550 2    50   Input ~ 0
-ROW1
-Wire Wire Line
-	2850 3550 3350 3550
-Text GLabel 3350 4550 2    50   Input ~ 0
-ROW3
-Wire Wire Line
-	2850 4550 3350 4550
-Text GLabel 3350 3650 2    50   Input ~ 0
-ROW2
-Wire Wire Line
-	2850 3650 3350 3650
 Wire Wire Line
 	1450 3550 950  3550
 Text GLabel 950  3550 0    50   Input ~ 0
-COL1
+COL14
+Text GLabel 3350 2950 2    50   Input ~ 0
+ROW1
 Wire Wire Line
-	1450 3650 950  3650
-Text GLabel 950  3650 0    50   Input ~ 0
-COL2
+	2850 2950 3350 2950
+Text GLabel 3350 3150 2    50   Input ~ 0
+ROW3
 Wire Wire Line
-	1450 3750 950  3750
-Text GLabel 950  3750 0    50   Input ~ 0
-COL3
+	2850 3150 3350 3150
+Text GLabel 3350 3050 2    50   Input ~ 0
+ROW2
 Wire Wire Line
-	1450 3850 950  3850
-Text GLabel 950  3850 0    50   Input ~ 0
-COL4
-Wire Wire Line
-	2850 1850 3350 1850
-Text GLabel 3350 1850 2    50   Input ~ 0
-COL5
-Wire Wire Line
-	2850 1950 3350 1950
-Text GLabel 3350 1950 2    50   Input ~ 0
-COL6
-Wire Wire Line
-	2850 2050 3350 2050
-Text GLabel 3350 2050 2    50   Input ~ 0
-COL7
-Wire Wire Line
-	2850 2150 3350 2150
-Text GLabel 3350 2150 2    50   Input ~ 0
-COL8
-Wire Wire Line
-	2850 2250 3350 2250
-Text GLabel 3350 2250 2    50   Input ~ 0
-COL9
+	2850 3050 3350 3050
 Wire Wire Line
 	2850 3250 3350 3250
 Text GLabel 3350 3250 2    50   Input ~ 0
-ROW4
+COL1
 Wire Wire Line
 	2850 3350 3350 3350
 Text GLabel 3350 3350 2    50   Input ~ 0
+COL2
+Wire Wire Line
+	1450 4550 950  4550
+Text GLabel 950  4550 0    50   Input ~ 0
+COL3
+Wire Wire Line
+	1450 4650 950  4650
+Text GLabel 950  4650 0    50   Input ~ 0
+COL4
+Wire Wire Line
+	1450 4750 950  4750
+Text GLabel 950  4750 0    50   Input ~ 0
+COL5
+Wire Wire Line
+	2850 3850 3350 3850
+Text GLabel 3350 3850 2    50   Input ~ 0
+COL6
+Wire Wire Line
+	2850 3950 3350 3950
+Text GLabel 3350 3950 2    50   Input ~ 0
+COL7
+Wire Wire Line
+	2850 4050 3350 4050
+Text GLabel 3350 4050 2    50   Input ~ 0
+COL8
+Wire Wire Line
+	2850 4350 3350 4350
+Text GLabel 3350 4350 2    50   Input ~ 0
+COL9
+Wire Wire Line
+	4200 4050 4700 4050
+Text GLabel 4700 4050 2    50   Input ~ 0
+ROW4
+Wire Wire Line
+	4200 4150 4700 4150
+Text GLabel 4700 4150 2    50   Input ~ 0
 ROW5
 Wire Wire Line
 	900  7200 900  7850
@@ -1162,26 +1151,26 @@ Text GLabel 3150 7850 3    50   Input ~ 0
 ENC4_A
 Text GLabel 3350 7850 3    50   Input ~ 0
 ENC4_B
+Text GLabel 3350 4750 2    50   Input ~ 0
+ENC1_B
 Text GLabel 3350 4850 2    50   Input ~ 0
-ENC4_A
-Text GLabel 3350 4950 2    50   Input ~ 0
-ENC4_B
+ENC1_A
+Wire Wire Line
+	2850 4750 3350 4750
 Wire Wire Line
 	2850 4850 3350 4850
+Text GLabel 3350 4950 2    50   Input ~ 0
+ENC2_B
 Wire Wire Line
 	2850 4950 3350 4950
-Text GLabel 3350 5050 2    50   Input ~ 0
-ENC3_A
+Text GLabel 950  4450 0    50   Input ~ 0
+ENC4_A
 Wire Wire Line
-	2850 5050 3350 5050
-Text GLabel 3350 2650 2    50   Input ~ 0
-ENC1_B
-Wire Wire Line
-	2850 2650 3350 2650
-Text GLabel 3100 2950 2    50   Input ~ 0
+	1450 4450 950  4450
+Text GLabel 3100 2650 2    50   Input ~ 0
 LEDIN
 Wire Wire Line
-	3100 2950 2850 2950
+	3100 2650 2850 2650
 Text GLabel 16300 1000 0    50   Input ~ 0
 3V3
 Wire Wire Line
@@ -1265,21 +1254,21 @@ $EndComp
 Wire Wire Line
 	16500 10850 17050 10850
 Wire Wire Line
-	950  4450 1450 4450
-Text GLabel 950  4450 0    50   Input ~ 0
-ENC1_A
-Wire Wire Line
 	950  4350 1450 4350
+Text GLabel 950  4350 0    50   Input ~ 0
+ENC4_B
 Wire Wire Line
 	950  4250 1450 4250
-Text GLabel 950  4350 0    50   Input ~ 0
-ENC2_B
-Text GLabel 950  4250 0    50   Input ~ 0
-ENC2_A
 Wire Wire Line
 	950  4150 1450 4150
+Text GLabel 950  4250 0    50   Input ~ 0
+ENC3_A
 Text GLabel 950  4150 0    50   Input ~ 0
 ENC3_B
+Wire Wire Line
+	3350 5050 2850 5050
+Text GLabel 3350 5050 2    50   Input ~ 0
+ENC2_A
 NoConn ~ 8900 4500
 NoConn ~ 8900 3300
 NoConn ~ 10500 3700
@@ -1290,19 +1279,6 @@ NoConn ~ 10500 2900
 NoConn ~ 9900 2500
 NoConn ~ 9600 2500
 NoConn ~ 10500 4600
-NoConn ~ 2850 3050
-NoConn ~ 2850 3150
-NoConn ~ 2850 3850
-NoConn ~ 2850 3950
-NoConn ~ 2850 4050
-NoConn ~ 2850 4450
-NoConn ~ 2850 4350
-NoConn ~ 1450 5050
-NoConn ~ 1450 4950
-NoConn ~ 1450 4850
-NoConn ~ 1450 4750
-NoConn ~ 1450 4650
-NoConn ~ 1450 4550
 NoConn ~ 1450 3350
 Wire Wire Line
 	11050 2750 11050 2400
@@ -1356,7 +1332,6 @@ Text GLabel 16200 9950 0    50   Input ~ 0
 KBLED
 Wire Wire Line
 	16200 9950 16550 9950
-NoConn ~ 2850 4750
 NoConn ~ 2850 4650
 Wire Wire Line
 	16550 10050 16200 10050
@@ -1371,4 +1346,15 @@ Wire Wire Line
 Wire Wire Line
 	10900 3200 11200 3200
 Connection ~ 10900 3200
+$Comp
+L MCU_ST_STM32F1:STM32F103RETx U1
+U 1 1 5BB77EF9
+P 2150 3450
+F 0 "U1" H 2150 3400 50  0000 C CNN
+F 1 "STM32F103RETx" H 2150 3550 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 1550 1750 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf" H 2150 3450 50  0001 C CNN
+	1    2150 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
